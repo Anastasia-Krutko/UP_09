@@ -17,17 +17,17 @@
         <tbody>
             <tr>
                 <td>Performance Score</td>
-                <td>83</td>
+                <td>96</td>
                 <td>> 90</td>
             </tr>
             <tr>
                 <td>FCP</td>
-                <td>0,5s</td>
+                <td>0,9s</td>
                 <td>< 1.8s</td>
             </tr>
             <tr>
                 <td>LCP</td>
-                <td>3.2s</td>
+                <td>1.2s</td>
                 <td>< 2.5s</td>
             </tr>
             <tr>
