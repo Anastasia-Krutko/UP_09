@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap'); 
 * {
     margin: 0;
     padding: 0;
@@ -226,10 +227,72 @@ main {
     color: #555555;
 }
 
+.mention {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70px;
+    width: 1200px;
+    gap: 24px;
+    margin-top: 96px;
+}
+.container-mention {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 1920px;
+}
+.mention-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 14px;
+    width: 1136px;
+    font-weight: 500;
+    font-style: bold;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.75px;
+    color: #888888;
+}
+.mention-bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 32px;
+    width: 1136px;
+}
+.mention-bottom-img1 {
+    height: 32px;
+    width: 224.8px;
+    opacity: 50%;
+}
+.mention-bottom-img2 {
+    height: 32px;
+    width: 100.8px;
+    opacity: 50%;
+}
+.mention-bottom-img3 {
+    height: 32px;
+    width: 243.59px;
+    opacity: 50%;
+}
+.mention-bottom-img4 {
+    height: 32px;
+    width: 122.39px;
+    opacity: 50%;
+}
+.mention-bottom-img5 {
+    height: 32px;
+    width: 171.19px;
+    opacity: 50%;
+}
 
 /* День2 */
 .osnova{
-    top:884px;
+    margin-top:44px;
     max-width: 100%;
     background-color: #F3D9DC;
     height: 1639px;
@@ -1014,18 +1077,23 @@ main {
     width: 832px;
 }
 .section_img_otziv_gallery{
-    width: 266px;
-    height: 266px;
-    transition:0.2s;
+    height: 266.6px ;
+    width: 266.6px;
+    transition: 0.2s;
 }
 .section_img_otziv_gallery:hover{
     transform: scale(135%);
-    transition:0.9s;
+    transition: 0.9s;
     overflow: hidden;
-    width: 300px;
-    height: 300px;
-    border-radius: 150px;
+    border-radius: 30%;
+    box-shadow: 0 0 35px rgb(80, 80, 80);
 }
+.img1{
+    height: 266.6px ;
+    width: 266.6px;
+    overflow: hidden;
+}
+
 
 /* День5 */
 .cena{
