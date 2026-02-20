@@ -8,27 +8,41 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header -->
-    <header class="page-header">
-        <div class="container">
-            <div class="header-inner">
-                <a href="/" class="logo-link" aria-label="На главную">
-                    <img src="UP09-master/img/omnifood-logo.webp" alt="Omnifood" class="logo" width="150" height="30">
-                </a>
-                
-                <!--Навигация -->
-                <nav class="main-nav" aria-label="Основное меню">
-                    <ul class="nav-list">
-                        <li><a href="#how-it-works" class="nav-link">Как это работает</a></li>
-                        <li><a href="#meals" class="nav-link">Рецепты</a></li>
-                        <li><a href="#testimonials" class="nav-link">Отзывы</a></li>
-                        <li><a href="#pricing" class="nav-link">Цены</a></li>
-                        <li><a href="#cta" class="nav-link nav-link-button">Попробовать</a></li>
-                    </ul>
-                </nav>
-            </div>
+ <!-- Шапка сайта с навигацией -->
+<header class="page-header">
+    <div class="container">
+        <!-- Чекбокс для управления меню -->
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        
+        <!-- Оверлей для затемнения -->
+        <div class="menu-overlay"></div>
+        
+        <div class="header-inner">
+            <!-- Логотип слева -->
+            <a href="/" class="logo-link" aria-label="На главную">
+                <img src="UP09-master/img/omnifood-logo.webp" alt="Omnifood" class="logo" width="150" height="30">
+            </a>
+            
+            <!-- Бургер-кнопка справа (только на мобильных) -->
+            <label for="menu-toggle" class="burger-menu" aria-label="Открыть меню">
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+            </label>
+            
+            <!-- Навигация справа (на десктопе) -->
+            <nav class="main-nav" aria-label="Основное меню">
+                <ul class="nav-list">
+                    <li><a href="#how-it-works" class="nav-link">Как это работает</a></li>
+                    <li><a href="#meals" class="nav-link">Рецепты</a></li>
+                    <li><a href="#testimonials" class="nav-link">Отзывы</a></li>
+                    <li><a href="#pricing" class="nav-link">Цены</a></li>
+                    <li><a href="#cta" class="nav-link nav-link-button">Попробовать</a></li>
+                </ul>
+            </nav>
         </div>
-    </header>
+    </div>
+</header>
 
     <main>
         <!-- Hero-section-->
