@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+    <meta http-equiv="Content-Security-Policy" 
+      content="default-src 'self'; 
+               script-src 'self' https://cdn.tailwindcss.com https://unpkg.com;">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Omnifood - Здоровое питание с доставкой</title>
@@ -463,7 +469,13 @@
                             <div class="form-row">
                                 <div class="form-group">
                                     <label for="name">Ваше имя</label>
-                                    <input type="text" id="name" name="name" placeholder="Анастасия Крутько" required>
+                                    <input type="text" 
+                                            name="full-name"
+                                            pattern="[A-Za-z\s\-]{2,50}"
+                                            title="Только буквы, пробелы и дефисы" 
+                                            id="name" 
+                                            name="name" 
+                                            placeholder="Анастасия Крутько" required>
                                 </div>
                                 <div class="form-group">
                                     <label for="email">Ваша почта</label>
