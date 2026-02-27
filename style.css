@@ -685,7 +685,25 @@ body {
 .pricing-card-complete {
     background-color: #ddc2d2;
     border: none;
-}
+    position: relative;
+    overflow: hidden;
+&::after {
+    content: "BEST VALUE";
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    width: 10rem;
+    height: 0.7rem;
+    top: 2.5rem;
+    right: -5rem;
+    background: #613a5c;
+    color: white;
+    font-weight: 700;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    padding: 0.5rem 3.75rem;
+    transform: rotate(45deg);
+}}
 
 .pricing-header {
     text-align: center;
